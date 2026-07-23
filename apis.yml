@@ -1,8 +1,13 @@
 aid: amber-group
 name: Amber Group
-description: 'Amber Group is a company surfaced as a portfolio company of dcm-ventures, pantera-capital,
-  paradigm and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Amber Group is a global digital asset financial services firm founded in 2017 by former
+  traditional-finance traders, providing trading, liquidity provision, wealth and asset management,
+  staking, and treasury solutions for institutions and high-net-worth clients. Its institutional
+  platform, Amber Premium (Nasdaq: AMBR), operates from financial hubs including Singapore, Hong Kong,
+  and Dubai, and publishes the Amber Premium Global API service suite so clients can integrate trading,
+  liquidity, and account services into their own systems. This profile was surfaced as a portfolio
+  company of DCM Ventures, Pantera Capital, and Paradigm and enriched with the company''s public
+  developer, legal, and support surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/amber-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,18 +17,77 @@ x-backed-by:
 - paradigm
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.ambergroup.io/icons/logo-large.png
 tags:
 - Company
 - Fintech
-apis: []
+- Cryptocurrency
+- Digital Assets
+- Trading
+- Asset Management
+- Wealth Management
+- Institutional
+- Blockchain
+- API
+apis:
+- name: Amber Premium Global API
+  description: 'The Amber Premium Global API service suite, exposing institutional crypto trading,
+    liquidity, and account services for the Amber Premium (Nasdaq: AMBR) platform. API reference is
+    published as a hosted developer page; no machine-readable OpenAPI specification was located
+    on the provider''s public surface.'
+  humanURL: https://www.ambr.io/global/apidoc
+  baseURL: https://www.ambr.io/global/apidoc
+  properties:
+  - type: Documentation
+    url: https://www.ambr.io/global/apidoc
+  - type: APIReference
+    url: https://www.ambr.io/global/apidoc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amber-group-domain-security.yml
 - type: Website
   url: https://www.ambergroup.io/
+- type: DeveloperPortal
+  url: https://www.ambr.io/sgp/apiSuite
+- type: Documentation
+  url: https://www.ambr.io/global/apidoc
+- type: APIReference
+  url: https://www.ambr.io/global/apidoc
+- type: Support
+  url: https://support.global.ambr.io/hc/en-us
+- type: Blog
+  url: https://www.ambergroup.io/news
+- type: SignUp
+  url: https://www.ambr.io/global
+- type: TermsOfService
+  url: https://www.ambr.io/terms
+- type: PrivacyPolicy
+  url: https://www.ambr.io/privacy
+- type: GitHubOrganization
+  url: https://github.com/ambergroup-io
+- type: LLMsTxt
+  url: llms/amber-group-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

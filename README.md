@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amber Group is a company surfaced as a portfolio company of dcm-ventures, pantera-capital, paradigm and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Amber Group is a global digital asset financial services firm founded in 2017 by former traditional-finance traders, providing trading, liquidity provision, wealth and asset management, staking, and treasury solutions for institutions and high-net-worth clients. Its institutional platform, Amber Premium (Nasdaq: AMBR), operates from financial hubs including Singapore, Hong Kong, and Dubai, and publishes the Amber Premium Global API service suite so clients can integrate trading, liquidity, and account services into their own systems. This profile was surfaced as a portfolio company of DCM Ventures, Pantera Capital, and Paradigm and enriched with the company's public developer, legal, and support surfaces.
 
-Backed by: dcm-ventures, pantera-capital, paradigm — https://www.ambergroup.io/
+**Areas:** Company · Fintech · Cryptocurrency · Digital Assets · Trading · Asset Management · Wealth Management · Institutional · Blockchain
+
+## Amber Group on APIs.io
+
+Everything profiled for Amber Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amber-group/](https://apis.io/providers/amber-group/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Amber Premium Global API](https://apis.io/apis/amber-group/amber-premium-global-api/) — The Amber Premium Global API service suite, exposing institutional crypto trading, liquidity, and account services for the Amber Premium (Nasdaq: AMBR)…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amber Group Domain Security](https://apis.io/security/amber-group/amber-group-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ambergroup.io/)
+- [Documentation](https://www.ambr.io/global/apidoc)
+- [API reference](https://www.ambr.io/global/apidoc)
+- [Sign up](https://www.ambr.io/global)
+- [Support](https://support.global.ambr.io/hc/en-us)
+- [Blog](https://www.ambergroup.io/news)
+- [Terms of service](https://www.ambr.io/terms)
+- [Privacy policy](https://www.ambr.io/privacy)
+- [GitHub](https://github.com/ambergroup-io)
+
+## API Evangelist rating
+
+**Kin Score 20.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.0** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amber-group/](https://apis.io/providers/amber-group/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amber Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amber-group/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
